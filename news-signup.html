@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <title> News signup</title>
+        <link rel="stylesheet" href="news-grid.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="logo">NEWS</h1>
+            <a class="nav-link" href="#">Signin</a>
+            <a class="nav-link" href="news-signup.html">Signup</a>
+         </div>
+        <div class="signup-container">
+        <h2 class="heading">Signup</h2>
+        <form method="get" action="http://jkorpela.fi/cgi-bin/echo.cgi">
+            <div class="form-element-container">
+            <div class="form-element">
+                <lable for="name"> Name</lable>
+                <input type="text" placeholder="Enter value" id="name" name="name">
+            </div>
+            <div class="form-element">
+                <lable for="Email"> Email</lable>
+                <input type="text" placeholder="Enter value" id="Email" name="Email">
+            </div>
+            <div class="form-element">
+                <lable for="password"> Password</lable>
+                <input type="Password" Placeholder="enter password" id="password" name="password">
+            </div>
+            <div class="form-element">
+                <lable for="colour"> Favorite colour </lable>
+                <select id="colour" name="colour">
+                    <option>Red</option>
+                    <option>Green</option>
+                    <option>blue</option>
+                </select>
+            </div>
+            <div class="form-element">
+              <lable>Gender</lable>
+                 <input type="radio" name="gender" id="male" value="M" checked>
+                 <lable class="lable-radio" for="male">Male</lable>
+                 <input type="radio" name="gender" id="female" value="F" >
+                 <lable class="lable-radio" for="female">Female</lable>
+            <div class="form-element">
+                <lable for="Student">I am a Student</lable>
+                <input type="checkbox" id="student" name="student">
+            </div>
+            </div>    
+            </div>
+            <div class="form-element">
+                <lable for="about">About me:</lable>
+                <textarea id="about" name="about">                 </textarea>
+            </div>
+             <input type="submit" value="signup">
+            
+        </form>
+        </div>
+        <div class="footer">
+            Copyright 2020
+        </div>
+    </body>
+</html>
